@@ -37,7 +37,7 @@
                 <button type="button" class="billing-btn" data-billing-option="monthly"
                     aria-pressed="true">Monthly</button>
                 <button type="button" class="billing-btn" data-billing-option="yearly" aria-pressed="false">
-                    Yearly <span class="save">2 months free</span>
+                    Yearly <span class="save" data-save-label></span>
                 </button>
             </div>
             <p id="billing-status" class="sr-only" role="status"></p>
@@ -47,7 +47,7 @@
             <article class="plan" style="--min: 33rem">
                 <h2 class="plan-name">Pinch</h2>
                 <p class="plan-desc">For a home studio or your first class.</p>
-                <div class="price" data-monthly="0" data-yearly="0" data-yearly-total="0">
+                <div class="price" data-monthly="0">
                     <span class="currency" aria-hidden="true">$</span><span class="amount"
                         aria-hidden="true">0</span><span class="per" aria-hidden="true"></span>
                     <span class="sr-only price-text">Free</span>
@@ -66,7 +66,7 @@
                 <span class="plan-tag">Most studios start here</span>
                 <h2 class="plan-name">Wheel</h2>
                 <p class="plan-desc">For studios running weekly classes.</p>
-                <div class="price" data-monthly="18" data-yearly="15" data-yearly-total="180">
+                <div class="price" data-monthly="18">
                     <span class="currency" aria-hidden="true">$</span><span class="amount"
                         aria-hidden="true">18</span><span class="per" aria-hidden="true">/month</span>
                     <span class="sr-only price-text">18 dollars a month, billed monthly</span>
@@ -85,7 +85,7 @@
             <article class="plan" style="--min: 43rem">
                 <h2 class="plan-name">Kiln</h2>
                 <p class="plan-desc">For busy studios with several rooms.</p>
-                <div class="price" data-monthly="42" data-yearly="35" data-yearly-total="420">
+                <div class="price" data-monthly="42">
                     <span class="currency" aria-hidden="true">$</span><span class="amount"
                         aria-hidden="true">42</span><span class="per" aria-hidden="true">/month</span>
                     <span class="sr-only price-text">42 dollars a month, billed monthly</span>
