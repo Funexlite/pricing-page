@@ -1,0 +1,48 @@
+:root {
+  --glaze: #d5e4da;
+  --slip: #f6f8f3;
+  --cobalt: #2748cf;
+  --iron: #231a17;
+  --amber: #f2b53f;
+  --muted: #4a5851;
+  --font: "Figtree", system-ui, sans-serif;
+  --font-display: "Gloock", Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--glaze);
+  color: var(--iron);
+  font-family: var(--font);
+  line-height: 1.55;
+}
+
+h1, h2, h3, p, ul { margin: 0; }
+ul { padding: 0; list-style: none; }
+a { color: inherit; }
+button { font-family: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 3px; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+
+/* class plans faq undefined */
+.site-header, .intro, .plans, .faq, .site-footer {
+  width: min(1120px, 100% - 40px);
+  margin-inline: auto;
+}
+
+.site-header { display: flex; align-items: center; justify-content: space-between; padding: 24px 0; }
+.brand { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-display); font-size: 1.5rem; text-decoration: none; }
+.site-header nav { display: flex; align-items: center; gap: 20px; font-weight: 500; }
+.header-btn { padding: 9px 18px; border: 2px solid var(--iron); border-radius: 999px; text-decoration: none; transition: background 0.15s, color 0.15s; }
+.header-btn:hover { background: var(--iron); color: var(--slip); }
+
+
+.site-footer { padding: 0 0 40px; color: var(--muted); font-size: 0.85rem; }

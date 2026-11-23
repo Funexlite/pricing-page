@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing Page</title>
+    <title>Pricing | Kilnbook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Gloock&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Pricing Page</h1>
 
+<body>
+    <header class="site-header">
+        <a class="brand" href="#">
+            <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+                <path d="M5 21V11a7 7 0 0 1 14 0v10z" fill="currentColor" />
+            </svg>
+            Kilnbook
+        </a>
+        <nav aria-label="Account">
+            <a href="#">Log in</a>
+            <a class="header-btn" href="#">Start free</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="intro">
+            <h1>Pick a plan that fits your studio</h1>
+            <p>Kilnbook tracks classes, kiln loads and glaze stock for pottery studios. Start free, and upgrade when you
+                outgrow it.</p>
+
+            <div class="billing" role="group" aria-label="Billing period">
+                <button type="button" class="billing-btn" data-billing-option="monthly"
+                    aria-pressed="true">Monthly</button>
+                <button type="button" class="billing-btn" data-billing-option="yearly" aria-pressed="false">
+                    Yearly <span class="save">2 months free</span>
+                </button>
+            </div>
+            <p id="billing-status" class="sr-only" role="status"></p>
+        </section>
+    </main>
+
+
+    <footer class="site-footer">
+        <p>Kilnbook is a made-up product. This page is a design exercise, and all names, prices and policies are
+            placeholders. I do not intend to conflict with any existing brand under this name</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
