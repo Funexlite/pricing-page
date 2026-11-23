@@ -42,6 +42,141 @@
             </div>
             <p id="billing-status" class="sr-only" role="status"></p>
         </section>
+
+        <section class="plans" aria-label="Plans">
+            <article class="plan" style="--min: 33rem">
+                <h2 class="plan-name">Pinch</h2>
+                <p class="plan-desc">For a home studio or your first class.</p>
+                <div class="price" data-monthly="0" data-yearly="0" data-yearly-total="0">
+                    <span class="currency" aria-hidden="true">$</span><span class="amount"
+                        aria-hidden="true">0</span><span class="per" aria-hidden="true"></span>
+                    <span class="sr-only price-text">Free</span>
+                </div>
+                <p class="billing-note"></p>
+                <a class="plan-btn" href="#">Start free</a>
+                <ul class="features">
+                    <li>1 instructor</li>
+                    <li>Up to 12 students</li>
+                    <li>Class calendar and sign-ups</li>
+                    <li>1 kiln log</li>
+                </ul>
+            </article>
+
+            <article class="plan featured" style="--min: 38rem">
+                <span class="plan-tag">Most studios start here</span>
+                <h2 class="plan-name">Wheel</h2>
+                <p class="plan-desc">For studios running weekly classes.</p>
+                <div class="price" data-monthly="18" data-yearly="15" data-yearly-total="180">
+                    <span class="currency" aria-hidden="true">$</span><span class="amount"
+                        aria-hidden="true">18</span><span class="per" aria-hidden="true">/month</span>
+                    <span class="sr-only price-text">18 dollars a month, billed monthly</span>
+                </div>
+                <p class="billing-note"></p>
+                <a class="plan-btn" href="#">Start 14-day trial</a>
+                <ul class="features">
+                    <li>Everything in Pinch</li>
+                    <li>Up to 5 instructors and 120 students</li>
+                    <li>Online payments and waitlists</li>
+                    <li>Glaze and clay stock tracking</li>
+                    <li>3 kiln logs with firing schedules</li>
+                </ul>
+            </article>
+
+            <article class="plan" style="--min: 43rem">
+                <h2 class="plan-name">Kiln</h2>
+                <p class="plan-desc">For busy studios with several rooms.</p>
+                <div class="price" data-monthly="42" data-yearly="35" data-yearly-total="420">
+                    <span class="currency" aria-hidden="true">$</span><span class="amount"
+                        aria-hidden="true">42</span><span class="per" aria-hidden="true">/month</span>
+                    <span class="sr-only price-text">42 dollars a month, billed monthly</span>
+                </div>
+                <p class="billing-note"></p>
+                <a class="plan-btn" href="#">Start 14-day trial</a>
+                <ul class="features">
+                    <li>Everything in Wheel</li>
+                    <li>Unlimited instructors and students</li>
+                    <li>Memberships and shelf rentals</li>
+                    <li>Reports by class, kiln and month</li>
+                    <li>Support reply within one working day</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="faq" aria-labelledby="faq-title">
+            <div class="faq-intro">
+                <h2 id="faq-title">Questions about pricing</h2>
+                <p>Can&rsquo;t find your answer? Email <a
+                        href="mailto:hello@kilnbook.example">hello@kilnbook.example</a>.</p>
+            </div>
+
+            <div class="faq-list">
+                <h3>
+                    <button type="button" class="faq-trigger" id="faq-trigger-1" aria-expanded="true"
+                        aria-controls="faq-panel-1">Can I switch between monthly and yearly billing?</button>
+                </h3>
+                <div class="faq-panel" id="faq-panel-1" role="region" aria-labelledby="faq-trigger-1">
+                    <div class="faq-body">
+                        <p>Yes, at any time in your account settings. Switching to yearly starts a new 12-month period.
+                            Switching to monthly takes effect when your current year ends.</p>
+                    </div>
+                </div>
+
+                <h3>
+                    <button type="button" class="faq-trigger" id="faq-trigger-2" aria-expanded="false"
+                        aria-controls="faq-panel-2">What happens when I reach my student limit?</button>
+                </h3>
+                <div class="faq-panel" id="faq-panel-2" role="region" aria-labelledby="faq-trigger-2">
+                    <div class="faq-body">
+                        <p>We email you when you reach 80% of your limit. Existing classes keep running, and new
+                            sign-ups pause until you upgrade or archive students who have left.</p>
+                    </div>
+                </div>
+
+                <h3>
+                    <button type="button" class="faq-trigger" id="faq-trigger-3" aria-expanded="false"
+                        aria-controls="faq-panel-3">Is there a free trial?</button>
+                </h3>
+                <div class="faq-panel" id="faq-panel-3" role="region" aria-labelledby="faq-trigger-3">
+                    <div class="faq-body">
+                        <p>Wheel and Kiln both start with 14 days free, and you don&rsquo;t need a card to begin. Pinch
+                            is free for as long as you like.</p>
+                    </div>
+                </div>
+
+                <h3>
+                    <button type="button" class="faq-trigger" id="faq-trigger-4" aria-expanded="false"
+                        aria-controls="faq-panel-4">Do you offer discounts for schools or non-profits?</button>
+                </h3>
+                <div class="faq-panel" id="faq-panel-4" role="region" aria-labelledby="faq-trigger-4">
+                    <div class="faq-body">
+                        <p>Yes. Schools and registered non-profits get 30% off any paid plan. Email us with proof of
+                            status and we&rsquo;ll apply it.</p>
+                    </div>
+                </div>
+
+                <h3>
+                    <button type="button" class="faq-trigger" id="faq-trigger-5" aria-expanded="false"
+                        aria-controls="faq-panel-5">How do refunds work?</button>
+                </h3>
+                <div class="faq-panel" id="faq-panel-5" role="region" aria-labelledby="faq-trigger-5">
+                    <div class="faq-body">
+                        <p>You can cancel a monthly plan at any time, and it stays active until the end of the month you
+                            paid for. Yearly plans are fully refundable within 30 days of purchase.</p>
+                    </div>
+                </div>
+
+                <h3>
+                    <button type="button" class="faq-trigger" id="faq-trigger-6" aria-expanded="false"
+                        aria-controls="faq-panel-6">Which payment methods do you accept?</button>
+                </h3>
+                <div class="faq-panel" id="faq-panel-6" role="region" aria-labelledby="faq-trigger-6">
+                    <div class="faq-body">
+                        <p>Major credit and debit cards. Yearly Kiln plans can also be paid by invoice.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
